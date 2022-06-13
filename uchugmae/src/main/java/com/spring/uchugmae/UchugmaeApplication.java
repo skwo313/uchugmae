@@ -8,6 +8,7 @@ public class UchugmaeApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(UchugmaeApplication.class, args);
+		System.out.println("권혁재에요");
 	}
 
 }
