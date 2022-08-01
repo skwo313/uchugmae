@@ -11,7 +11,17 @@ public class MainController {
 
     @GetMapping("/main")
     public String main(){
-        return "index/main";
+        return "main";
+    }
+
+    @GetMapping("/login")
+    public String login(){
+        return "login";
+    }
+
+    @GetMapping("/list")
+    public String list(){
+        return "list";
     }
     
 
