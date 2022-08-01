@@ -28,6 +28,8 @@ dependencies {
 	runtimeOnly 'org.hsqldb:hsqldb'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation group: 'org.hsqldb', name: 'hsqldb', version: '2.5.1'
+	runtimeOnly 'org.postgresql:postgresql'
 }
 
 tasks.named('test') {
