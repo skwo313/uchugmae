@@ -23,6 +23,12 @@ public class MainController {
     public String list(){
         return "list";
     }
+
+
+    @GetMapping("/index")
+    public String index(){
+        return "index";
+    }
     
 
 }
