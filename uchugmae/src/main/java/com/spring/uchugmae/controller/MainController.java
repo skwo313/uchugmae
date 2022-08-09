@@ -2,12 +2,12 @@ package com.spring.uchugmae.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 
 @Controller
 public class MainController {
-    
-
 
     @GetMapping("/main")
     public String main(){
@@ -19,15 +19,14 @@ public class MainController {
         return "login";
     }
 
-    @GetMapping("/list")
-    public String list(){
-        return "list";
-    }
-
-
-    @GetMapping("/index")
+    @RequestMapping(value = "index", method = RequestMethod.GET)
     public String index(){
         return "index";
+    }
+
+    @RequestMapping(value = "list", method = RequestMethod.GET)
+    public String list(){
+        return "list  ";
     }
     
 
