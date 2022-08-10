@@ -26,7 +26,7 @@ public class MainController {
 
     @RequestMapping(value = "list", method = RequestMethod.GET)
     public String list(){
-        return "list  ";
+        return "list";
     }
     
 
