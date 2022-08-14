@@ -38,3 +38,5 @@
 
 ## 4. 핵심 기능
 
+![메인페이지](https://user-images.githubusercontent.com/84454039/184541474-f72ac2ee-14c6-4841-b007-2904e44faf4e.png)
+![리스트](https://user-images.githubusercontent.com/84454039/184541473-d4f8e1d3-a883-4267-9c9b-8efcb2d288fc.png)
